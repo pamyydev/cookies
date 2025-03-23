@@ -7,7 +7,7 @@ export type SiteConfig = {
   lang: string
 
   themeColor: {
-    hue: number
+    hue: number 
     fixed: boolean
   }
   banner: {

@@ -1,7 +1,7 @@
 # About
 This is the demo site for [Pamydev](https://github.com/pamyydev).
 
-::github{repo="saicaca/fuwari"}
+::github{repo="pamyydev/cookies"}
 
 > ### Sources of images used in this site
 > - [Unsplash](https://unsplash.com/)

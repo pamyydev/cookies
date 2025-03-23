@@ -9,7 +9,7 @@ import { ko } from './languages/ko'
 import { th } from './languages/th'
 import { zh_CN } from './languages/zh_CN'
 import { zh_TW } from './languages/zh_TW'
-
+import { pt } from './languages/pt'
 
 export type Translation = {
   [K in I18nKey]: string
@@ -33,15 +33,18 @@ const map: { [key: string]: Translation } = {
   ko_kr: ko,
   th: th,
   th_th: th,
+  pt: pt, // Portuguese added
 }
 
 // Get the appropriate translation object based on the language
 export function getTranslation(lang: string): Translation {
+  // Convert language code to lowercase to ensure consistency
   return map[lang.toLowerCase()] || defaultTranslation
 }
 
 // Function to retrieve the translation for a specific key based on the current language
 export function i18n(key: I18nKey): string {
-  const lang = siteConfig.lang || 'en'  // Default to 'en' if no lang is set in siteConfig
+  // Default to 'pt' if no lang is set in siteConfig or if it's invalid
+  const lang = siteConfig.lang?.toLowerCase() || 'pt'
   return getTranslation(lang)[key]
 }

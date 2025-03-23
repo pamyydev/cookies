@@ -4,7 +4,7 @@ import { LinkPreset } from './types/config'
 export const siteConfig: SiteConfig = {
   title: 'Cookinhos',
   subtitle: 'Demo Site',
-  lang: 'en',
+  lang: 'pt',
   themeColor: {
     hue: 250,
     fixed: false,
