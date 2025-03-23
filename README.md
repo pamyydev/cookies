@@ -1,6 +1,5 @@
+**![Imagem do Cookinhos](https://imgur.com/7wcWBaf.jpg)**
 ## 🍪 **Cookinhos**  
-![Imagem do Cookinhos](https://imgur.com/7wcWBaf.jpg)
-
 O **Cookinhos** foi inicialmente criado para alertar as pessoas sobre os riscos relacionados à **segurança de cookies**. Cookies são uma parte essencial da experiência web, mas também podem representar riscos à privacidade e segurança dos usuários, caso não sejam utilizados corretamente. O blog busca educar os leitores sobre os impactos dos cookies na segurança online, abordando temas como rastreamento de dados, vulnerabilidades de cookies e melhores práticas para proteger a privacidade.
 
 No entanto, o **Cookinhos** tem planos de se expandir e se tornar um espaço para **programadores**, **desenvolvedores** e entusiastas de tecnologia. Além de **segurança na web**, futuramente o blog abordará tópicos como **desenvolvimento de software**, **tendências tecnológicas**, **boas práticas de segurança** e muito mais.
