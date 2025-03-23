@@ -4,7 +4,7 @@ import I18nKey from '@i18n/i18nKey'
 import { getDefaultHue, getHue, setHue } from '@utils/setting-utils'
 import Icon from '@iconify/svelte'
 
-let hue = getHue()
+let hue = 95  // Define o valor inicial do hue como 30 (tom de marrom)
 const defaultHue = getDefaultHue()
 
 function resetHue() {
