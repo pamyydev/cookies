@@ -9,14 +9,14 @@ import { ko } from './languages/ko'
 import { th } from './languages/th'
 import { zh_CN } from './languages/zh_CN'
 import { zh_TW } from './languages/zh_TW'
-import { pt } from './languages/pt'
+import pt  from './languages/pt'
 
 export type Translation = {
   [K in I18nKey]: string
 }
 
-// Default language (English)
-const defaultTranslation = en
+// Default language (Portuguese)
+const defaultTranslation = pt
 
 // Language map with static imports for each language
 const map: { [key: string]: Translation } = {
