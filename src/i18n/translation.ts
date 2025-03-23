@@ -9,7 +9,7 @@ import { ko } from './languages/ko'
 import { th } from './languages/th'
 import { zh_CN } from './languages/zh_CN'
 import { zh_TW } from './languages/zh_TW'
-import {ptBR} from './languages/ptBR'  // Importando a tradução ptBR
+import {ptBR} from './languages/ptBR' // Importando a tradução ptBR
 
 export type Translation = {
   [K in I18nKey]: string

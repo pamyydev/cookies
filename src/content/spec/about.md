@@ -1,9 +1,14 @@
-# About
-This is the demo site for [Pamydev](https://github.com/pamyydev).
+# Sobre
+Esse site é uma demonstração por enquanto, em breve poderá virar um blog de verdade [Pamydev](https://github.com/pamyydev).
 
 ::github{repo="pamyydev/cookies"}
 
-> ### Sources of images used in this site
-> - [Unsplash](https://unsplash.com/)
-> - [星と少女](https://www.pixiv.net/artworks/108916539) by [Stella](https://www.pixiv.net/users/93273965)
-> - [Rabbit - v1.4 Showcase](https://civitai.com/posts/586908) by [Rabbit_YourMajesty](https://civitai.com/user/Rabbit_YourMajesty)
+### Fontes utilizadas para este conteúdo sobre Cookies
+
+- **[TechCrunch](https://techcrunch.com/)** - Análises e tendências sobre tecnologia e segurança online.
+- **[The Verge](https://www.theverge.com/)** - Artigos sobre privacidade digital e proteção de dados na web.
+- **[Mozilla Developer Network (MDN)](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Cookies)** - Documentação técnica sobre cookies e práticas recomendadas de segurança na web.
+- **"A Arte da Privacidade"** por **Helen Nissenbaum** - Um livro fundamental sobre privacidade digital e o impacto das tecnologias no nosso dia a dia.
+- **"Proteção de Dados Pessoais - LGPD e GDPR"** por **José Renato de Lima Rodrigues** - Guia completo sobre leis de proteção de dados no Brasil e na União Europeia.
+- **"Privacy and Data Protection Law"** por **Paul Lambert** - Um livro essencial para entender as legislações de proteção de dados no contexto global.
+

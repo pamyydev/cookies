@@ -1,6 +1,6 @@
 ---
 title: Cookies e Segurança na Internet
-published: 2025-03-21
+published: 2025-03-22
 description: 'Os Riscos e Como se Proteger'
 image: ''
 tags: [Riscos]
