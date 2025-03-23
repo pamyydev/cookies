@@ -21,7 +21,7 @@ import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://fuwari.vercel.app/",
+  site: "https://cookinhosblog.vercel.app/",
   base: "/",
   trailingSlash: "always",
   integrations: [
@@ -58,7 +58,7 @@ export default defineConfig({
       CSS: false,
       Image: false,
       Action: {
-        Passed: async () => true, // https://github.com/PlayForm/Compress/issues/376
+        Passed: async () => true, 
       },
     }),
   ],
