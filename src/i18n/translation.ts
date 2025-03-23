@@ -9,14 +9,14 @@ import { ko } from './languages/ko'
 import { th } from './languages/th'
 import { zh_CN } from './languages/zh_CN'
 import { zh_TW } from './languages/zh_TW'
-import pt  from './languages/pt'
+import {ptBR} from './languages/ptBR'  // Importando a tradução ptBR
 
 export type Translation = {
   [K in I18nKey]: string
 }
 
-// Default language (Portuguese)
-const defaultTranslation = pt
+// Default language (Portuguese Brazilian)
+const defaultTranslation = ptBR  // Alterado para ptBR
 
 // Language map with static imports for each language
 const map: { [key: string]: Translation } = {
@@ -33,7 +33,7 @@ const map: { [key: string]: Translation } = {
   ko_kr: ko,
   th: th,
   th_th: th,
-  pt: pt, // Portuguese added
+  pt: ptBR, // Alterado para ptBR (Português Brasileiro)
 }
 
 // Get the appropriate translation object based on the language
@@ -44,7 +44,7 @@ export function getTranslation(lang: string): Translation {
 
 // Function to retrieve the translation for a specific key based on the current language
 export function i18n(key: I18nKey): string {
-  // Default to 'pt' if no lang is set in siteConfig or if it's invalid
-  const lang = siteConfig.lang?.toLowerCase() || 'pt'
+  // Default to 'pt' (ptBR) if no lang is set in siteConfig or if it's invalid
+  const lang = siteConfig.lang?.toLowerCase() || 'ptBR'
   return getTranslation(lang)[key]
 }
