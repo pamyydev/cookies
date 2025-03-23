@@ -48,7 +48,7 @@ export const navBarConfig: NavBarConfig = {
 export const profileConfig: ProfileConfig = {
   avatar: 'assets/images/demo-avatar.png',
   name: "Cookinho's blog",
-  bio: 'Um blog que te ajuda a se proteger contra os malditos cookies de navegador',
+  bio: 'Um blog para te ajudar a entender e se proteger dos cookies de navegação.',
   links: [
     {
       name: 'Linkedin',
