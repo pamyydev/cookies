@@ -56,7 +56,6 @@ draft: false
 lang: pt      # Defina se o idioma do post for diferente do site
 ---
 ```
-
 - `title`: O título do post.
 - `published`: Data de publicação no formato `YYYY-MM-DD`.
 - `description`: Uma breve descrição do conteúdo do post.
